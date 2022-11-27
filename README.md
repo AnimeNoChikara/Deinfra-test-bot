@@ -3,7 +3,7 @@ deinfra
 # Install Otomatis
 
 ```
-wget -qO deinfra.sh https://raw.githubusercontent.com/bangpateng/Deinfra/main/deinfra.sh && chmod +x deinfra.sh && ./deinfra.sh
+wget -qO deinfra.sh https://raw.githubusercontent.com/AnimeNoChikara/Deinfra-test-bot/main/deinfra.sh && chmod +x deinfra.sh && ./deinfra.sh
 ```
 
 # Check Node
