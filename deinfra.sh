@@ -1,6 +1,13 @@
 #!/bin/bash
 clear
-2
+echo -e "\e[92m"
+echo "    / \   _ __ (_)_ __ ___   ___| \ | | ___  / ___| |__ (_) | ____ _ _ __ __ _   "; 
+echo "   / _ \ | '_ \| | '_ ` _ \ / _ \  \| |/ _ \| |   | '_ \| | |/ / _` | '__/ _` |  ";
+echo "  / ___ \| | | | | | | | | |  __/ |\  | (_) | |___| | | | |   < (_| | | | (_| |  ";
+echo " /_/   \_\_| |_|_|_| |_| |_|\___|_| \_|\___/ \____|_| |_|_|_|\_\__,_|_|  \__,_|  ";
+echo -e "\e[0m"
+
+
 echo -e "\e[1m\e[32m1. Updating packages... \e[0m" && sleep 1
 # update
 sudo apt update -y && sudo apt install jq && sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt install docker-compose
